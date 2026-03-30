@@ -12,7 +12,7 @@ const Hero = () => {
         style={{ marginBottom: '2rem' }}
       >
         <img 
-          src="/my-profile.jpeg" 
+          src="my-profile.jpeg" 
           alt="Mohammad Niyas" 
           style={{ width: '180px', height: '180px', borderRadius: '50%', border: '4px solid var(--primary-color)', boxShadow: '0 0 30px rgba(45, 212, 191, 0.2)', objectFit: 'cover', objectPosition: 'top' }}
         />
