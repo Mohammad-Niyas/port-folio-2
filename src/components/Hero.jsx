@@ -22,7 +22,7 @@ const Hero = () => {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.6 }}
-        style={{ fontSize: '4rem', fontWeight: 800, marginBottom: '1rem', letterSpacing: '-0.02em' }}
+        style={{ fontWeight: 800, marginBottom: '1rem', letterSpacing: '-0.02em' }}
       >
         Mohammad <span className="gradient-text">Niyas</span>
       </motion.h1>
@@ -31,7 +31,7 @@ const Hero = () => {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.6 }}
-        style={{ fontSize: '1.5rem', color: 'var(--text-secondary)', maxWidth: '700px', margin: '0 auto 2.5rem' }}
+        style={{ color: 'var(--text-secondary)', maxWidth: '700px', margin: '0 auto 2.5rem' }}
       >
         Backend Architect & Product Engineer specializing in <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Scalable Systems</span> and <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Go</span>.
       </motion.p>

@@ -44,7 +44,7 @@ const Projects = () => {
   return (
     <section id="projects" className="container">
       <h2 style={{ fontSize: '2.5rem', marginBottom: '3rem' }}>Selected <span className="gradient-text">Work</span></h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2.5rem', marginBottom: '3rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem', marginBottom: '3rem' }}>
         {projects.map((project, index) => (
           <motion.div
             key={index}

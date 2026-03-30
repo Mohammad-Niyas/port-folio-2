@@ -101,3 +101,95 @@ button {
 .fade-in {
   animation: fadeIn 0.8s ease-out forwards;
 }
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 1.5rem;
+  }
+
+  .container {
+    padding: 0 var(--container-padding);
+  }
+
+  section {
+    padding: 4rem 0;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .hero-section {
+    min-height: 80vh !important;
+    padding-top: 4rem !important;
+  }
+
+  .mobile-stack {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+
+  .mobile-grid-1 {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+}
+
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(3, 7, 18, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--glass-border);
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    display: none; /* Simple for now, can add toggle later if needed */
+  }
+  
+  .hero-section button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-section div {
+    flex-direction: column;
+    width: 100%;
+  }
+}
