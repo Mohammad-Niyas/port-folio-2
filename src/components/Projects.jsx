@@ -18,10 +18,10 @@ const projects = [
     tag: 'Fintech'
   },
   {
-    title: 'Kerala Food Finder',
+    title: 'Elayil',
     description: 'A location-based app with AI-powered data extraction from Instagram/YouTube reels to automate restaurant onboarding. Built with Groq/Llama-3.',
     tech: ['Go', 'Groq / Llama-3', 'React', 'Maps API', 'AI-Driven Data Extraction'],
-    github: 'https://github.com/Mohammad-Niyas/Kerala-Food-Finder',
+    github: 'https://github.com/Mohammad-Niyas/Elayil',
     tag: 'Product'
   },
   {
